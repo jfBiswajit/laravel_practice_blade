@@ -1,4 +1,6 @@
-<div class="ftco-blocks-cover-1">
+@extends('layout')
+@section('content')
+    <div class="ftco-blocks-cover-1">
       <div class="site-section-cover overlay" style="background-image: url('images/hero_1.jpg')">
         <div class="container">
           <div class="row align-items-center">
@@ -118,14 +120,11 @@
               </div>
             </div>
           </div>
-
         </div>
-
       </div>
     </div>
 
     <div class="site-section">
-
       <div class="container">
         <div class="row justify-content-center text-center">
           <div class="col-md-10">
@@ -139,7 +138,6 @@
 
 
         <div class="row">
-
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="person-29191 text-center">
               <img src="images/person_1.jpg" alt="Image" class="img-fluid mb-4">
@@ -187,19 +185,12 @@
               </div>
             </div>
           </div>
-
         </div>
-
       </div>
     </div>
 
-
-    
-
     <div class="site-section">
-
       <div class="container">
-
         <div class="row justify-content-center text-center">
           <div class="col-md-10">
             <div class="heading-39101 mb-5">
@@ -213,7 +204,6 @@
         <div class="owl-carousel slide-one-item">
           <div class="row">
             <div class="col-md-6">
-
               <div class="testimonial-39191 d-flex">
                 <div class="mr-4">
                   <img src="images/person_1.jpg" alt="Image" class="img-fluid">
@@ -222,12 +212,10 @@
                 <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, accusamus, facilis! Placeat praesentium alias porro aperiam facilis accusantium veniam?&rdquo;</blockquote>
                 <p>&mdash; John Doe</p>
                 </div>
-              </div>    
-              
+              </div>      
             </div>
 
             <div class="col-md-6">
-
               <div class="testimonial-39191 d-flex">
                 <div class="mr-4">
                   <img src="images/person_2.jpg" alt="Image" class="img-fluid">
@@ -236,14 +224,12 @@
                 <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, accusamus, facilis! Placeat praesentium alias porro aperiam facilis accusantium veniam?&rdquo;</blockquote>
                 <p>&mdash; John Doe</p>
                 </div>
-              </div>    
-              
+              </div>              
             </div>
           </div>
 
           <div class="row">
             <div class="col-md-6">
-
               <div class="testimonial-39191 d-flex">
                 <div class="mr-4">
                   <img src="images/person_1.jpg" alt="Image" class="img-fluid">
@@ -252,12 +238,10 @@
                 <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, accusamus, facilis! Placeat praesentium alias porro aperiam facilis accusantium veniam?&rdquo;</blockquote>
                 <p>&mdash; John Doe</p>
                 </div>
-              </div>    
-              
+              </div>        
             </div>
 
             <div class="col-md-6">
-
               <div class="testimonial-39191 d-flex">
                 <div class="mr-4">
                   <img src="images/person_2.jpg" alt="Image" class="img-fluid">
@@ -266,19 +250,15 @@
                 <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, accusamus, facilis! Placeat praesentium alias porro aperiam facilis accusantium veniam?&rdquo;</blockquote>
                 <p>&mdash; John Doe</p>
                 </div>
-              </div>    
-              
+              </div>              
             </div>
           </div>
-
         </div>
-
       </div>
     </div>
 
 
     <div class="site-section">
-
       <div class="container">
         <div class="row justify-content-center text-center">
           <div class="col-md-10">
@@ -298,7 +278,6 @@
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
-                
                 <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
                 <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
@@ -312,7 +291,6 @@
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
-                
                 <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
                 <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
@@ -327,7 +305,6 @@
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
-                
                 <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
                 <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
@@ -350,3 +327,4 @@
         </div>
       </div>
     </div>
+@endsection
