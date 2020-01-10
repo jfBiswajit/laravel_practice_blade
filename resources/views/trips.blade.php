@@ -1,4 +1,6 @@
-   <div class="ftco-blocks-cover-1">
+   @extends('layout')
+   @section('content')
+       <div class="ftco-blocks-cover-1">
       <div class="site-section-cover overlay" style="background-image: url('images/hero_1.jpg')">
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
@@ -122,3 +124,4 @@
         </div>
       </div>
     </div>
+   @endsection

@@ -43,11 +43,11 @@
 
               <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                <li class="{{ Request::path() == '/' ? "active" : '' }}"><a href="index.html" class="nav-link">Home</a></li>
-                  <li><a href="about.html" class="nav-link">About</a></li>
-                  <li><a href="trips.html" class="nav-link">Trips</a></li>
-                  <li><a href="blog.html" class="nav-link">Blog</a></li>
-                  <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="{{ Request::path() == '/' ? "active" : '' }}"><a href="{{ URL::to('/') }}" class="nav-link">Home</a></li>
+                <li class="{{ Request::path() == 'about' ? "active" : '' }}"><a href="{{ URL::to('/about') }}" class="nav-link">About</a></li>
+                  <li class="{{ Request::path() == 'trips' ? "active" : '' }}"><a href="{{ URL::to('/trips') }}" class="nav-link">Trips</a></li>
+                  <li class="{{ Request::path() == 'blog' ? "active" : '' }}"><a href="{{ URL::to('/blog') }}" class="nav-link">Blog</a></li>
+                  <li class="{{ Request::path() == 'contact' ? "active" : '' }}"><a href="{{ URL::to('/contact') }}" class="nav-link">Contact</a></li>
                 </ul>
               </nav>
             </div>          
